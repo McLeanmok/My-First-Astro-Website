@@ -1,0 +1,19 @@
+---
+const { title = "Card Title", body = "orem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quisquam quae? Maiores suscipit ducimus optio, dolores illum nam adipisci veritatis nesciunt error ipsa tenetur consectetur placeat dolorum, quos eaque aut."} = Astro.props;
+---
+<div>
+    <h2>{title}</h2>
+    <p>{body}</p>
+</div>
+
+<style>
+    div {
+            background-color: black;
+            color: white;
+            padding: 4vw;
+    }
+    div h2 {
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+    }
+            </style>
